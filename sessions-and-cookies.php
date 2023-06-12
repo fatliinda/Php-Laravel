@@ -2,6 +2,11 @@
 
     setcookie('name','Me',time()+60,'/');
     var_dump($_COOKIE);
+
+    if(isset($_COOKIE['name'])){
+
+        echo "your name is {$_COOKIE['name']}";
+    }
    
     session_start();
     echo session_id();
