@@ -1,4 +1,8 @@
 <?php
+
+    setcookie('name','Me',time()+60,'/');
+    var_dump($_COOKIE);
+   
     session_start();
     echo session_id();
     $_SESSION['counter']??=0;
