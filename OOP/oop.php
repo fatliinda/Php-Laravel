@@ -1,6 +1,6 @@
 <?php
 
-    class Person{
+    class Personi{
                     public $name;
                     public $surname;
                     public $age;
@@ -27,8 +27,8 @@
 
     }
 
-$me= new Person("Fatlinda","Brahaj",19);
-$fatmirja=new Person("Fatmirja","braha",21);
+$me= new Personi("Fatlinda","Brahaj",19);
+$fatmirja=new Personi("Fatmirja","braha",21);
 $fatmirja->setName("Fatma");
 echo $fatmirja->name;
 ?>
