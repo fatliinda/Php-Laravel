@@ -12,6 +12,11 @@ class Car{
 
         $this->wheels=$wheels;
     }
+
+    function speed($speed){
+
+        echo "is this fast : ". $speed;
+    }
 }
         
     $motor=new Car(2);
@@ -36,6 +41,7 @@ class Car{
 $bus=  new Bus(4,5,24);
 echo $bus->wheels.',';
 echo $bus->nchairs;
+echo $bus->speed(400);
 
 
 
